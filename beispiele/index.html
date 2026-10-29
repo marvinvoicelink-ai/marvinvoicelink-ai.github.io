@@ -20,6 +20,9 @@
   header img{height:30px;display:block}
   .mono{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
   header .mono{color:var(--faint)}
+  .hphone{display:flex;flex-direction:column;align-items:flex-end;text-decoration:none;border:1px solid var(--line-gold);border-radius:10px;padding:7px 12px}
+  .hphone .mono{font-size:10px}
+  .hphone b{font-family:"Archivo";font-size:17px;color:var(--text);white-space:nowrap}
   h1,h2,h3{font-family:"Archivo",sans-serif;line-height:1.08;letter-spacing:-.01em}
   .hero{padding:56px 0 30px}
   .kicker{color:var(--amber);margin-bottom:14px;display:block}
@@ -62,6 +65,7 @@
   .contact b{font-size:18px}
   footer{padding:34px 0 50px;color:var(--faint);font-size:13.5px;border-top:1px solid var(--line)}
   footer a{color:var(--dim)}
+  @media (max-width:520px){header img{height:24px}.hphone b{font-size:15px}}
   @media (max-width:720px){.flight{grid-template-columns:1fr}.btn.ghost{margin-left:0}}
 </style>
 </head>
@@ -69,7 +73,7 @@
 <div class="wrap">
   <header>
     <img src="media/onyx-logo.png" alt="Onyx.AI">
-    <span class="mono">ONYX Studio · Beispiele</span>
+    <a class="hphone" href="tel:+34607948476"><span class="mono">Ihr Ansprechpartner Thorsten</span><b>+34 607 948 476</b></a>
   </header>
 
   <div class="hero">
@@ -132,8 +136,8 @@
       <p class="sub" style="margin-bottom:0">15–20 Minuten per Videocall, unverbindlich. Schicken Sie zwei Terminvorschläge, und wenn Sie mögen, zwei, drei Handyfotos von einem aktuellen Rohbau.</p>
       <div class="contact">
         <div><span class="mono">Am einfachsten</span><b>Auf unsere E-Mail antworten</b></div>
-        <div><span class="mono">Telefon · Marvin Weiß-Drumm</span><b><a href="tel:+4917632273522">+49 176 32273522</a></b></div>
-        <div><span class="mono">Ihr Ansprechpartner</span><b>Thorsten · Onyx.AI</b></div>
+        <div><span class="mono">Telefon · Thorsten</span><b><a href="tel:+34607948476">+34 607 948 476</a></b></div>
+        <div><span class="mono">Demo mit</span><b>Marvin Weiß-Drumm, Gründer</b></div>
       </div>
     </div>
   </section>
