@@ -73,6 +73,13 @@
   .hero-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:24px}
   .hero-cta small{color:var(--faint);font-size:14px}
   @media (max-width:640px){.hphone{display:none}.wa-head span{display:none}.wa-head{padding:9px 11px}}
+  .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:6px}
+  .feat .card h3{font-size:22px;margin-bottom:12px}
+  .feat .card h3 small{display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:500;margin-bottom:8px}
+  .feat ul{list-style:none;display:grid;gap:10px}
+  .feat li{color:var(--dim);font-size:16px;line-height:1.5;padding-left:22px;position:relative}
+  .feat li::before{content:"›";position:absolute;left:4px;top:-1px;color:var(--amber);font-weight:700}
+  .feat li b{color:var(--text);font-weight:600}
   @media (max-width:520px){header img{height:24px}.hphone b{font-size:15px}}
   @media (max-width:720px){.flight{grid-template-columns:1fr}.btn.ghost{margin-left:0}}
 </style>
@@ -96,7 +103,7 @@
       <small>Marvin Weiß-Drumm, Gründer – antwortet persönlich.</small>
     </div>
     <nav class="jump">
-      <a href="#zeitraffer">Zeitraffer</a><a href="#vorher-nachher">Vorher / Nachher</a><a href="#rundflug">Drohnenflug</a><a href="#website">Scroll-Website</a><a href="#kontakt">Demo-Termin</a>
+      <a href="#zeitraffer">Zeitraffer</a><a href="#vorher-nachher">Vorher / Nachher</a><a href="#rundflug">Drohnenflug</a><a href="#website">Scroll-Website</a><a href="#software">Software</a><a href="#kontakt">Demo-Termin</a>
     </nav>
   </div>
 
@@ -141,6 +148,40 @@
       <p class="sub" style="margin-bottom:0">Eine eigene Seite nur für dieses Objekt: oben der Flug, darunter die echten Fotos, Vorher/Nachher und die Eckdaten. Dieses Beispiel ist auf Spanisch, auf Wunsch auch auf Deutsch oder Englisch. Am besten auf dem Handy öffnen.</p>
       <a class="btn" href="finca/">Beispiel-Website öffnen →</a>
       <a class="btn ghost" href="ONYX-Studio-Infoblatt.pdf" download>Infoblatt als PDF</a>
+    </div>
+  </section>
+
+  <section id="software">
+    <span class="mono kicker">Und dahinter: die Software</span>
+    <h2>ONYX Studio – alles für Ihr Büro <span>in einem Konto.</span></h2>
+    <p class="sub">Videos und Website sind das, was Ihre Käufer sehen. Dahinter steckt eine Software, die Ihnen die Arbeit rund um jedes Objekt abnimmt – auf Deutsch und Spanisch, am Handy wie am Rechner.</p>
+    <div class="feat">
+      <div class="card">
+        <h3><small>Für alle</small>Einsprechen statt abtippen</h3>
+        <ul>
+          <li><b>Objekt einsprechen:</b> Durchs Haus gehen, Räume und Größen sagen – daraus entstehen Objektdaten und Grundriss-Skizze.</li>
+          <li><b>Exposé, Scroll-Website oder komplette Website</b> direkt aus dem Objekt beauftragen und fertig abholen.</li>
+          <li><b>Startseite mit Tagesliste:</b> Was heute wartet – Termine, neue Anfragen, Fristen.</li>
+          <li><b>Zweisprachig:</b> Oberfläche und Objekttexte auf Deutsch und Spanisch.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><small>Für Makler</small>Vom Auftrag bis zur Provision</h3>
+        <ul>
+          <li><b>Unterlagen-Ampel:</b> Sieht sofort, ob Nota simple, Energieausweis &amp; Co. vollständig und aktuell sind.</li>
+          <li><b>Interessenten einordnen:</b> Heiß, warm oder kalt nach Budget, Finanzierung und Zeitraum – Prüffragen per WhatsApp oder Mail mit einem Tipp.</li>
+          <li><b>Besichtigungen mit Rückmeldung</b> und ein <b>Eigentümer-Bericht</b> zum Verschicken.</li>
+          <li><b>Verkauf &amp; Fristen:</b> Reserva, Arras, Notar und Provision mit Datum – keine Frist rutscht durch.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><small>Für Bauträger</small>Baustelle und Verkauf im Griff</h3>
+        <ul>
+          <li><b>Verkaufsstand je Einheit:</b> frei, reserviert, verkauft – auf einen Blick für Bank, Architekt und Vertrieb.</li>
+          <li><b>Material &amp; Lager:</b> Verbrauch buchen, die Software sagt, wann bestellt werden muss – mit Lieferzeit für die Fähre. Bestellung direkt per WhatsApp an den Lieferanten.</li>
+          <li><b>Mängel- und Abnahmeprotokoll:</b> Raum antippen, Foto, einsprechen – zum Ausdrucken mit Unterschrift.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
